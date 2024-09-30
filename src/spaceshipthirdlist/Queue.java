@@ -1,4 +1,4 @@
-package spaceshipsecondarray;
+package spaceshipthirdlist;
 
 public interface Queue<AnyType> {
     void add(AnyType var1);

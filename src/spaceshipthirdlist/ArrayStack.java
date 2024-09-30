@@ -1,4 +1,4 @@
-package spaceshipsecondarray;
+package spaceshipthirdlist;
 
 
 public class ArrayStack<AnyType> implements Stack<AnyType> {

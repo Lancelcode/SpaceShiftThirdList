@@ -1,4 +1,4 @@
-package spaceshipsecondarray;
+package spaceshipthirdlist;
 
 public class ArrayQueue<AnyType> implements Queue<AnyType> {
     private static final int DEFAULT_CAPACITY = 20;

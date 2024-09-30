@@ -1,4 +1,4 @@
-package spaceshipsecondarray;
+package spaceshipthirdlist;
 
 import java.util.ArrayList;
 
@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
 
 
 
-public class SpaceShipSecondArray {
+public class SpaceShipThirdList {
 
     // Method to load data from the mission file
     public static String[] loadData(String filename) throws IOException {
