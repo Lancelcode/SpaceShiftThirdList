@@ -1,5 +1,6 @@
 package spaceshipthirdlist;
 
+
 // ListQueue class
 //
 // CONSTRUCTION: with no initializer
@@ -7,8 +8,8 @@ package spaceshipthirdlist;
 // void add( x )      --> Insert x
 // void push( x )     --> Insert x
 // AnyType peek( )    --> Return least recently inserted item
-// AnyType remove( )  --> Return and remove lest recent item
-// AnyType pop( )     --> Return and remove lest recent item
+// AnyType remove( )  --> Return and remove least recent item
+// AnyType pop( )     --> Return and remove least recent item
 // boolean empty( )   --> Return true if empty; else false
 // void makeEmpty( )  --> Remove all items
 // int size()         --> returns size of queue zero if empty

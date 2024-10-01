@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80939a61-0a2d-4022-b0dc-7e0a6e5bdf33" name="Changes" comment="embellishment">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/ArrayStack.java" afterDir="false" />
+    <list default="true" id="80939a61-0a2d-4022-b0dc-7e0a6e5bdf33" name="Changes" comment="base incomplete">
+      <change afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/ListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ArrayStack.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/ListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/SpaceShipThirdList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/SpaceShipThirdList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/UnderflowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/UnderflowException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +35,12 @@
     &quot;assignee&quot;: &quot;Lancelcode&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Lancelcode/SpaceShipSecondPart.git&quot;,
-    &quot;accountId&quot;: &quot;7f23c54d-7bd8-4d67-9e24-206ee41ec414&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Lancelcode/SpaceShiftThirdList.git",
+    "accountId": "7f23c54d-7bd8-4d67-9e24-206ee41ec414"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -59,27 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SpaceShip.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpaceShipSecondArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpaceShipSecondPart.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Djiby/IdeaProjects/SpaceShipThirdList&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SpaceShip.executor": "Run",
+    "Application.SpaceShipSecondArray.executor": "Run",
+    "Application.SpaceShipSecondPart.executor": "Run",
+    "Application.SpaceShipThirdList.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Djiby/IdeaProjects/SpaceShipThirdList",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="spaceshipsecondpart" />
@@ -118,7 +115,7 @@
       <workItem from="1727728106904" duration="8247000" />
       <workItem from="1727736859554" duration="813000" />
       <workItem from="1727737721452" duration="3000" />
-      <workItem from="1727737741847" duration="1022000" />
+      <workItem from="1727737741847" duration="4645000" />
     </task>
     <task id="LOCAL-00001" summary="Base fixed with all basic requirements of the assessment.">
       <option name="closed" value="true" />
@@ -192,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727736371995</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="base incomplete">
+      <option name="closed" value="true" />
+      <created>1727738835550</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727738835550</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +224,7 @@
     <MESSAGE value="base with custom methods and Working as expected." />
     <MESSAGE value="fixes in the logic" />
     <MESSAGE value="embellishment" />
-    <option name="LAST_COMMIT_MESSAGE" value="embellishment" />
+    <MESSAGE value="base incomplete" />
+    <option name="LAST_COMMIT_MESSAGE" value="base incomplete" />
   </component>
 </project>

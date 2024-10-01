@@ -94,9 +94,9 @@ public class SpaceShipThirdList {
                 continue; // Skip the rest of the mission if there are issues with pod validation
             }
 
-            Stack<String> container1 = new ArrayStack<>();
-            Stack<String> container2 = new ArrayStack<>();
-            Queue<String> corridor1 = new ArrayQueue<>();
+            Stack container1 = new ListStack();
+            Stack container2 = new ListStack();
+            Queue corridor1 = new ListQueue();
 
             System.out.println("\n------------------------------\n");
             System.out.println("\nInitial container1 amount of pods: " + (container1.size() == 0 ? "Is empty" : container1.size()));
@@ -167,7 +167,7 @@ public class SpaceShipThirdList {
 
             // Sort elements into the respective bays based on first character
             while (!corridor1.empty()) {
-                String pod = corridor1.remove();
+                String pod = corridor1.remove().toString();
                        if (pod.charAt(0) == 'P') {
                     bay1.add(pod);
                 } else if (pod.charAt(0) == 'F') {
