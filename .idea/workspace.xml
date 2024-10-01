@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80939a61-0a2d-4022-b0dc-7e0a6e5bdf33" name="Changes" comment="base incomplete">
-      <change afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/ListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ArrayQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ArrayStack.java" beforeDir="false" />
+    <list default="true" id="80939a61-0a2d-4022-b0dc-7e0a6e5bdf33" name="Changes" comment="base with the added list modules and interfaces , but still not functional, needs to be fixed , probable fix to string well implemented to avoid print the hashcode">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/ListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/SpaceShipThirdList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/SpaceShipThirdList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/ListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/ListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceshipthirdlist/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaceshipthirdlist/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,7 @@
       <workItem from="1727728106904" duration="8247000" />
       <workItem from="1727736859554" duration="813000" />
       <workItem from="1727737721452" duration="3000" />
-      <workItem from="1727737741847" duration="4645000" />
+      <workItem from="1727737741847" duration="6200000" />
     </task>
     <task id="LOCAL-00001" summary="Base fixed with all basic requirements of the assessment.">
       <option name="closed" value="true" />
@@ -197,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727738835550</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="base with the added list modules and interfaces , but still not functional, needs to be fixed , probable fix to string well implemented to avoid print the hashcode">
+      <option name="closed" value="true" />
+      <created>1727742566065</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727742566065</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +232,7 @@
     <MESSAGE value="fixes in the logic" />
     <MESSAGE value="embellishment" />
     <MESSAGE value="base incomplete" />
-    <option name="LAST_COMMIT_MESSAGE" value="base incomplete" />
+    <MESSAGE value="base with the added list modules and interfaces , but still not functional, needs to be fixed , probable fix to string well implemented to avoid print the hashcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="base with the added list modules and interfaces , but still not functional, needs to be fixed , probable fix to string well implemented to avoid print the hashcode" />
   </component>
 </project>

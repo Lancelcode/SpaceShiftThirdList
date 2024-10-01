@@ -7,7 +7,7 @@ public interface Stack<AnyType> {
 
     AnyType peek();
 
-    void topAndPop();
+    AnyType topAndPop();
 
     boolean empty();
 

@@ -134,5 +134,27 @@ public class ListQueue<AnyType> implements Queue<AnyType>
         return size;
     }
 
+    @Override
+    public String toString() {
+        if (empty()) {
+            return "[]";
+        }
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+
+        ListNode<AnyType> current = front;
+        while (current != null) {
+            sb.append(current.element);
+            if (current.next != null) {
+                sb.append(", ");
+            }
+            current = current.next;
+        }
+
+        sb.append("]");
+        return sb.toString();
+    }
+
 
 }

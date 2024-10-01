@@ -9,11 +9,13 @@ public class ListStack<AnyType> implements Stack<AnyType> {
      */
     public ListStack() {
         topOfStack = null;
+        size = 0; // Initialize size to 0
     }
 
     /**
      * Returns the size of the stack.
      */
+    @Override
     public int size() {
         return size;
     }
@@ -22,6 +24,7 @@ public class ListStack<AnyType> implements Stack<AnyType> {
      * Test if the stack is logically empty.
      * @return true if empty, false otherwise.
      */
+    @Override
     public boolean empty() {
         return topOfStack == null;
     }
@@ -29,6 +32,7 @@ public class ListStack<AnyType> implements Stack<AnyType> {
     /**
      * Make the stack logically empty.
      */
+    @Override
     public void makeEmpty() {
         topOfStack = null;
         size = 0; // Reset the size to zero when the stack is emptied
@@ -38,16 +42,8 @@ public class ListStack<AnyType> implements Stack<AnyType> {
      * Insert a new item into the stack.
      * @param x the item to insert.
      */
+    @Override
     public void push(AnyType x) {
-        topOfStack = new ListNode<>(x, topOfStack);
-        size++;
-    }
-
-    /**
-     * Insert a new item into the stack.
-     * @param x the item to insert.
-     */
-    public void add(AnyType x) {
         topOfStack = new ListNode<>(x, topOfStack);
         size++;
     }
@@ -56,6 +52,7 @@ public class ListStack<AnyType> implements Stack<AnyType> {
      * Return the most recently inserted item without removing it.
      * @throws UnderflowException if the stack is empty.
      */
+    @Override
     public AnyType peek() {
         if (empty())
             throw new UnderflowException("Stack is empty");
@@ -63,15 +60,24 @@ public class ListStack<AnyType> implements Stack<AnyType> {
     }
 
     @Override
-    public void topAndPop() {
+    public AnyType topAndPop() {
+        if (empty()) {
+            throw new UnderflowException("Stack is empty");
+        }
 
+        AnyType topItem = topOfStack.element; // Get the top item
+        topOfStack = topOfStack.next; // Remove the top item from the stack
+        size--; // Decrease the size of the stack
+        return topItem; // Return the top item
     }
+
 
     /**
      * Return and remove the most recently inserted item from the stack.
      * @return the most recently inserted item in the stack.
      * @throws UnderflowException if the stack is empty.
      */
+    @Override
     public AnyType pop() {
         if (empty())
             throw new UnderflowException("Stack is empty");
@@ -82,19 +88,21 @@ public class ListStack<AnyType> implements Stack<AnyType> {
         return topItem;
     }
 
-    /**
-     * Return and remove the most recently inserted item from the stack.
-     * @return the most recently inserted item in the stack.
-     * @throws UnderflowException if the stack is empty.
-     */
-    public AnyType remove() {
-        if (empty())
-            throw new UnderflowException("Stack is empty");
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
 
-        AnyType topItem = topOfStack.element;
-        topOfStack = topOfStack.next;
-        size--;
-        return topItem;
+        ListNode<AnyType> current = topOfStack; // Corrected variable name
+        while (current != null) {
+            sb.append(current.element);
+            if (current.next != null) {
+                sb.append(", ");
+            }
+            current = current.next;
+        }
+
+        sb.append("]");
+        return sb.toString();
     }
 }
-
